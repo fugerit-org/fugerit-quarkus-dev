@@ -17,4 +17,12 @@ class GreetingResourceTest {
              .body(is("Hello from Quarkus REST"));
     }
 
+    @Test
+    void testHelloEndpointPdf() {
+        given()
+                .when().get("/hello/pdf")
+                .then()
+                .statusCode(200);
+    }
+
 }

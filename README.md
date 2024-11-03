@@ -1,5 +1,17 @@
 # fugerit-quarkus-dev
 
+## Apache FOP Native Integration
+
+This is a test for Apache FOP and GraalVM integration, as described on issue : 
+
+<https://github.com/fugerit-org/fugerit-quarkus-dev/issues/1>
+
+A simple test endpoint has been added : 
+
+<http://localhost:8080/hello/pdf>
+
+## Origina readme
+
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .

@@ -15,6 +15,7 @@
     <quarkus.platform.version>3.16.1</quarkus.platform.version>
     <skipITs>true</skipITs>
     <surefire-plugin.version>3.5.0</surefire-plugin.version>
+    <fop-version>2.10</fop-version>
   </properties>
   <dependencyManagement>
     <dependencies>
@@ -35,6 +36,11 @@
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-arc</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.xmlgraphics</groupId>
+      <artifactId>fop</artifactId>
+      <version>${fop-version}</version>
     </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>
